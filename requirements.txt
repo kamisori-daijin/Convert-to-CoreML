@@ -2,4 +2,4 @@
 coremltools
 torch
 transformers
-numpy>
+numpy
