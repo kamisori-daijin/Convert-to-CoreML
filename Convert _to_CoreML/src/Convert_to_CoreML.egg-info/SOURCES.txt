@@ -1,0 +1,7 @@
+pyproject.toml
+src/Convert _to_CoreML/__init__.py
+src/Convert _to_CoreML/main.py
+src/Convert__to_CoreML.egg-info/PKG-INFO
+src/Convert__to_CoreML.egg-info/SOURCES.txt
+src/Convert__to_CoreML.egg-info/dependency_links.txt
+src/Convert__to_CoreML.egg-info/top_level.txt
