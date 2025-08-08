@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "convert_to_coreml"
+version = "1.0.0"
+authors = [
+    { name = "kamisori-daijin" }
+]
+description = "Convert the model to coreml format"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "coremltools",
+    "torch",
+    "transformers",
+    "numpy"
+]
+[project.scripts]
+convert-to-coreml = "convert_to_coreml.convert:main"
+
+
+[tool.hatch.build]
+include = ["src/convert_to_coreml"]
