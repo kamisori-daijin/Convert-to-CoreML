@@ -23,10 +23,7 @@ def main():
     # Use the path received as a command line argument
     downloaded_hf_model_dir = args.model
 
-    print(f"CoreMLTools Version: {ct.__version__}")
-    print(f"PyTorch Version: {torch.__version__}")
-    print(f"Transformers Version: {AutoTokenizer.__version__}")
-    print(f"Numpy Version: {np.__version__}")
+    
 
     try:
         # 1. Hugging Face model loading
@@ -108,3 +105,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
