@@ -19,11 +19,13 @@ dependencies = [
     "coremltools",
     "torch",
     "transformers",
-    "numpy"
+    "numpy",
+    "hatchling"
 ]
-[project.scripts]
-convert-to-coreml = "convert_to_coreml.convert:main"
-
 
 [tool.hatch.build]
 include = ["src/convert_to_coreml"]
+
+
+# [project.scripts]
+# convert-to-coreml = "convert_to_coreml.convert:main"
