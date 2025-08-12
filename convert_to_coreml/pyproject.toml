@@ -20,7 +20,8 @@ dependencies = [
     "torch",
     "transformers",
     "numpy",
-    "hatchling"
+    "hatchling",
+    "distutils"
 ]
 
 [tool.hatch.build]
