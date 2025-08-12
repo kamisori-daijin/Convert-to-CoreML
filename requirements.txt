@@ -1,5 +1,0 @@
-# This script requires the following libraries.
-coremltools
-torch
-transformers
-numpy
