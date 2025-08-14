@@ -5,7 +5,9 @@ Convert the model to coreml format
 
 As a result, models that utilize this op (such as gemma-3-1b-it) will fail to convert until a conversion function for `__ior__` is implemented.
 
-**How  To Use**
+
+**How To Use**
+
 If the model you want to convert is in  `/path/your/directory/`:
 
 ```bash
