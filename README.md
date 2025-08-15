@@ -5,6 +5,12 @@ Convert the model to coreml format
 
 As a result, models that utilize this op (such as gemma-3-1b-it) will fail to convert until a conversion function for `__ior__` is implemented.
 
+**How To Install**
+```bash
+git clone https://github.com/kamisori-daijin/Convert-to-CoreML
+cd Convert-to-CoreML
+pip install -e .
+```
 
 **How To Use**
 
